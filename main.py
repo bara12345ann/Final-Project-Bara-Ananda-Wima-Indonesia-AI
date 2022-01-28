@@ -1,3 +1,4 @@
+#Memasukkan library yang dibutuhkan
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -9,9 +10,9 @@ print("Program pengirim email otomatis")
 print("Isi data berikut")
 
 #setup alamt email pengirim dan penerima
-email_send = "baraannanda20@gmail.com"
-pw_send = "sandibaru2002"
-email_receiver = "barawima123@gmail.com"
+email_send = input(str("Masukkan Email Pengirim : "))
+pw_send = input(str("Masukkan Password Pengirim : "))
+email_receiver = input(str("Masukkan Email Penerima : "))
 print(" ")
 
 #setup MIME
