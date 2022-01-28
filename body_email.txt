@@ -1,0 +1,4 @@
+Ini adalah body email
+yang digunakan dalam project akhir
+Indonesia AI
+Basic Python
